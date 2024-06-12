@@ -29,9 +29,9 @@ def my_report(chat=None):
     my_token = '6023168328:AAE1WuD5RUDLNDyOgGdJkPBmKXXXXXXXXXXXXXX'
     my_bot = telegram.Bot(token=my_token)
     
-    connection = {'host': 'https://clickhouse.lab.karpov.courses',
-                  'database':'simulator_20230120',
-                  'user':'student',
+    connection = {'host': 'https://clickhouse.XXXXXXXXXX',
+                  'database':'XXXXXXXXXXXXX',
+                  'user':'XXXXXXXXX',
                   'password':'XXXXXXXXX'}
 
     query_dau = """
